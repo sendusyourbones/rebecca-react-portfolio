@@ -29,10 +29,6 @@ export const Project = (props) => {
             </a>
         </div>
     );
-}
+};
 
 export default Project;
-
-/*
-THEN I see titled images with links to both the deployed applications and the corresponding GitHub repositories
-*/
