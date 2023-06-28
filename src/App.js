@@ -2,6 +2,7 @@ import './App.css';
 import {
   Header,
   About,
+  Portfolio,
 } from './components';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Header/>
       <About/>
+      <Portfolio/>
     </div>
   );
 }
