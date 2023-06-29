@@ -4,10 +4,13 @@ import {
     TextField,
 } from '@material-ui/core';
 
+import { validateEmail } from '../../utils/validateEmail';
+
 export const Contact = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+    const [errorMessage, setErrorMessage] = useState('');
     const [submitted, setSubmitted] = useState(false);
 
     const handleInputChange = (e) => {
@@ -20,10 +23,33 @@ export const Contact = () => {
         } else if (name === 'message') {
             setMessage(value);
         }
+
+        if (value !== '') {
+            setErrorMessage('');
+        }
+    };
+
+    const handleBlur = (e) => {
+        const { value, name } = e.target;
+
+        if (value === '') {
+            if (name === 'name') {
+                setErrorMessage('Name is required.');
+            } else if (name === 'email') {
+                setErrorMessage('Email address is required.');
+            } else if (name === 'message') {
+                setErrorMessage('Message is required.');
+            }
+        }
     };
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
+
+        if (!validateEmail(email)) {
+            setErrorMessage('Please enter a valid email address.');
+            return;
+        }
 
         setName('');
         setEmail('');
@@ -45,6 +71,7 @@ export const Contact = () => {
                     type="text"
                     variant="outlined"
                     required
+                    onBlur={handleBlur}
                 />
                 <TextField
                     label="Email Address"
@@ -54,6 +81,7 @@ export const Contact = () => {
                     type="text"
                     variant="outlined"
                     required
+                    onBlur={handleBlur}
                 />
                 <TextField
                     label="Message"
@@ -64,7 +92,11 @@ export const Contact = () => {
                     multiline
                     rows={10}
                     required
+                    onBlur={handleBlur}
                 />
+                {errorMessage && (
+                    <p>{errorMessage}</p>
+                )}
                 <button
                     type="button"
                     onClick={handleFormSubmit}
