@@ -7,9 +7,7 @@ import Avatar from '../../assets/images/avatar.png';
 export const About = () => {
     return (
         <section>
-            <Typography variant="h1">
-                About Me
-            </Typography>
+            <h1>About Me</h1>
 
             <img 
                 src={Avatar} 
