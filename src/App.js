@@ -5,6 +5,7 @@ import {
   Portfolio,
   Contact,
   Resume,
+  Footer
 } from './components';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Portfolio/>
       <Contact/>
       <Resume/>
+      <Footer/>
     </div>
   );
 }
