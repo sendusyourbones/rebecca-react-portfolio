@@ -1,44 +1,37 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-// import IconButton from '@material-ui/core/IconButton';
-// import MenuIcon from '@material-ui/icons/Menu';
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
-  title: {
-    flexGrow: 1,
-  },
-}));
+import React, { useState } from 'react';
+import {
+  Navigation,
+  About,
+  Contact,
+  Portfolio,
+  Resume,
+} from '../components';
 
 export const Header = () => {
-  const classes = useStyles();
+
+  const [currentPage, setCurrentPage] = useState('About Me');
+
+  const renderPage = () => {
+    if (currentPage === 'About Me') {
+        return <About/>;
+    }
+    if (currentPage === 'Portfolio') {
+        return <Portfolio/>;
+    }
+    if (currentPage === 'Contact') {
+        return <Contact/>;
+    }
+    if (currentPage === 'Resume') {
+        return <Resume/>;
+    }
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className={classes.root}>
-      <AppBar position="static">
-        <Toolbar>
-          <Typography variant="h6" className={classes.title}>
-            About Me
-          </Typography>
-          <Typography variant="h6" className={classes.title}>
-            Portfolio
-          </Typography>
-          <Typography variant="h6" className={classes.title}>
-            Contact
-          </Typography>
-          <Typography variant="h6" className={classes.title}>
-            Resume
-          </Typography>
-        </Toolbar>
-      </AppBar>
+    <div>
+        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+        {renderPage()}
     </div>
   );
 }

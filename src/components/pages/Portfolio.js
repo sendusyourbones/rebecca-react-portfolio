@@ -2,13 +2,13 @@ import React from 'react';
 
 import { Typography } from '@material-ui/core';
 
-import Project from './Project';
-import SneezeTheDay from '../assets/images/sneeze-the-day-square.jpg';
-import KitchenAlchemy from '../assets/images/kitchen-alchemy.jpg';
-import TextEditor from '../assets/images/text-editor.jpg';
-import Scheduler from '../assets/images/scheduler.jpg';
-import CodingQuiz from '../assets/images/coding-quiz.jpg';
-import WeatherDashboard from '../assets/images/weather-dashboard.jpg';
+import Project from '../Project';
+import SneezeTheDay from '../../assets/images/sneeze-the-day-square.jpg';
+import KitchenAlchemy from '../../assets/images/kitchen-alchemy.jpg';
+import TextEditor from '../../assets/images/text-editor.jpg';
+import Scheduler from '../../assets/images/scheduler.jpg';
+import CodingQuiz from '../../assets/images/coding-quiz.jpg';
+import WeatherDashboard from '../../assets/images/weather-dashboard.jpg';
 
 export const Portfolio = () => {
     return (
