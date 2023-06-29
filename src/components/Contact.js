@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
-import { Typography } from '@material-ui/core';
+import { 
+    Typography,
+    TextField,
+} from '@material-ui/core';
 
 export const Contact = () => {
     const [name, setName] = useState('');
@@ -34,29 +37,33 @@ export const Contact = () => {
                 Contact Me
             </Typography>
             <form>
-                <label for="name">Name:</label>
-                <input
-                    id="name"
+                <TextField
+                    label="Name"
                     value={name}
                     name="name"
                     onChange={handleInputChange}
                     type="text"
+                    variant="outlined"
+                    required
                 />
-                <label for="email">Email Address:</label>
-                <input
-                    id="email"
+                <TextField
+                    label="Email Address"
                     value={email}
                     name="email"
                     onChange={handleInputChange}
                     type="text"
+                    variant="outlined"
+                    required
                 />
-                <label for="message">Message:</label>
-                <textarea
-                    id="message"
+                <TextField
+                    label="Message"
                     value={message}
                     name="message"
                     onChange={handleInputChange}
+                    variant="outlined"
+                    multiline
                     rows={10}
+                    required
                 />
                 <button
                     type="button"
