@@ -1,4 +1,7 @@
 import React from 'react';
+
+import { Typography } from '@material-ui/core';
+
 import Project from './Project';
 import SneezeTheDay from '../assets/images/sneeze-the-day-square.jpg';
 import KitchenAlchemy from '../assets/images/kitchen-alchemy.jpg';
@@ -10,7 +13,7 @@ import WeatherDashboard from '../assets/images/weather-dashboard.jpg';
 export const Portfolio = () => {
     return (
         <section>
-            <h1>Portfolio</h1>
+            <Typography variant="h1">Portfolio</Typography>
             <Project
                 title="Sneeze The Day"
                 thumbnail={SneezeTheDay}

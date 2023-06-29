@@ -4,6 +4,7 @@ import {
   About,
   Portfolio,
   Contact,
+  Resume,
 } from './components';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <Portfolio/>
       <Contact/>
+      <Resume/>
     </div>
   );
 }
