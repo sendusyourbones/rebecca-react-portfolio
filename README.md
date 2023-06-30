@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# My React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+I created this website to showcase the applications I have built to potential employers, and to tell them a bit about me. Potential employers can use the site to contact me, download my resume and view my proficiencies, and visit my GitHub, LinkedIn, and Stack Overflow profiles. The site was built using React.
 
-In the project directory, you can run:
+## Usage
 
-### `npm start`
+View the [deployed appliation]().
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- When you first visit the site, you are taken to the "About Me" page with a short description about myself.
+- To review my work, click the "Portfolio" link in the header. Click the "View Application" button to check out the deployed application, or click "View GitHub Repository" to see the code on GitHub.
+- To contact me, click the "Contact" link in the header and complete the form. Note that all the fields are required.
+- To download my resume and view a list of my proficiences, click "Resume" in the header.
+- To visit my GitHub, LinkedIn, or Stack Overflow profile page, click the corresponding logos in the footer of any page.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Screenshot of my portfolio website showing a header and About Me section](./assets/images/portfolio_screenshot.png)
 
-### `npm test`
+## Credits
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The website was built using [React](https://react.dev/) and [Bootstrap](https://getbootstrap.com/). I also leveraged [MaterialUI](https://v4.mui.com/) for the contact form fields.
 
-### `npm run build`
+I referenced the following articles when troubleshooting some issues:
+- Stack Overflow - [how to download file in react js](https://stackoverflow.com/questions/50694881/how-to-download-file-in-react-js)
+    - This helped with allowing the user to download my resume
+- freeCodeCamp - [How to keep your footer where it belongs](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
+    - This helped with displaying the footer at the bottom of the window if the content did not reach the bottom, and below the content if the content went past the bottom of the window
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT License
