@@ -2,6 +2,7 @@ import React from 'react';
 import GitHubLogo from '../assets/images/github-logo.png';
 import LinkedInLogo from '../assets/images/linkedin-logo.png';
 import StackLogo from '../assets/images/stackoverflow-logo.png';
+import '../assets/styles/Footer.css';
 
 export const Footer = () => {
     return (

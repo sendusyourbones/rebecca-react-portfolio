@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
-import { 
-    Typography,
-    TextField,
-} from '@material-ui/core';
+import { TextField } from '@material-ui/core';
 
 import { validateEmail } from '../../utils/validateEmail';
+import '../../assets/styles/Contact.css';
 
 export const Contact = () => {
     const [name, setName] = useState('');
@@ -59,47 +57,51 @@ export const Contact = () => {
 
     return (
         <section>
-            <Typography variant="h1">
-                Contact Me
-            </Typography>
+            <h1>Contact Me</h1>
             <form>
-                <TextField
-                    label="Name"
-                    value={name}
-                    name="name"
-                    onChange={handleInputChange}
-                    type="text"
-                    variant="outlined"
-                    required
-                    onBlur={handleBlur}
-                />
-                <TextField
-                    label="Email Address"
-                    value={email}
-                    name="email"
-                    onChange={handleInputChange}
-                    type="text"
-                    variant="outlined"
-                    required
-                    onBlur={handleBlur}
-                />
-                <TextField
-                    label="Message"
-                    value={message}
-                    name="message"
-                    onChange={handleInputChange}
-                    variant="outlined"
-                    multiline
-                    rows={10}
-                    required
-                    onBlur={handleBlur}
-                />
+                <div className="form-container">
+                    <TextField
+                        label="Name"
+                        value={name}
+                        name="name"
+                        onChange={handleInputChange}
+                        type="text"
+                        variant="outlined"
+                        required
+                        onBlur={handleBlur}
+                        fullWidth
+                    />
+                    <TextField
+                        label="Email Address"
+                        value={email}
+                        name="email"
+                        onChange={handleInputChange}
+                        type="text"
+                        variant="outlined"
+                        required
+                        onBlur={handleBlur}
+                        fullWidth
+                    />
+                    <TextField
+                        label="Message"
+                        value={message}
+                        name="message"
+                        onChange={handleInputChange}
+                        variant="outlined"
+                        multiline
+                        rows={10}
+                        required
+                        onBlur={handleBlur}
+                        fullWidth
+                    />
+                </div>
                 {errorMessage && (
-                    <p>{errorMessage}</p>
+                    <p className="error">{errorMessage}</p>
                 )}
                 <button
                     type="button"
                     onClick={handleFormSubmit}
+                    className="btn btn-lg btn-contact"
                 >
                     Send Your Message
                 </button>

@@ -3,10 +3,11 @@ import {
     Typography,
 } from '@material-ui/core';
 import Avatar from '../../assets/images/avatar.png';
+import '../../assets/styles/About.css';
 
 export const About = () => {
     return (
-        <section>
+        <section id="about-me">
             <h1>About Me</h1>
 
             <img 

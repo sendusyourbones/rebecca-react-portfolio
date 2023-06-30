@@ -1,0 +1,14 @@
+.btn.btn-resume {
+    background-color: #D7FAB4;
+    border: 2px solid black;
+    margin-bottom: 2rem;
+}
+
+#resume ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#resume li {
+    border: 1px solid #4c3ea3;
+}

@@ -1,0 +1,15 @@
+.form-container {
+    max-width: 800px;
+    margin: 1rem auto;
+}
+
+.error {
+    color: #961a1a;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.btn.btn-contact {
+    background-color: #B4B4FA;
+    border: 2px solid black;
+}

@@ -1,6 +1,6 @@
-img {
-    border: 10px double var(--brown);
+#about-me img {
+    border: 10px solid #B4FAB4;
     border-radius: 50%;
-    margin-right: 3%;
     max-height: 200px;
+    margin: 2rem;
 }

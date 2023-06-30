@@ -1,0 +1,13 @@
+.project-container {
+    background-color: #B4FAFA;
+    border: 10px solid #B4B4FA;
+    border-radius: 20px;
+    margin: 1rem 0;
+    max-width: 340px;
+}
+
+.project-container a {
+    text-decoration: none;
+    width: fit-content;
+    margin: 10px auto;
+}

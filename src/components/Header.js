@@ -30,13 +30,10 @@ export const Header = () => {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className="content-wrapper">
         <header>
-          <nav class="navbar navbar-expand-md bg-body-tertiary">
-          <p class="fs-1 navbar-brand my-name">Rebecca Roos</p>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolioNav" aria-controls="portfolioNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+          <nav className="navbar navbar-expand-md bg-body-tertiary">
+            <p className="fs-1 navbar-brand my-name">Rebecca Roos</p>
             <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
           </nav>
         </header>
