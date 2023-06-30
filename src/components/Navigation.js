@@ -3,8 +3,8 @@ import '../assets/styles/Header.css';
 
 export const Navigation = ({ currentPage, handlePageChange }) => {
     return (
-        <ul className="nav nav-tabs">
-            <li className="nav-item">
+        <ul className="navbar-nav">
+            <li className="nav-item nav-item-custom">
                 <a
                     href="#about"
                     onClick={() => handlePageChange('About Me')}
@@ -13,7 +13,7 @@ export const Navigation = ({ currentPage, handlePageChange }) => {
                     About Me
                 </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item nav-item-custom">
                 <a
                     href="#portfolio"
                     onClick={() => handlePageChange('Portfolio')}
@@ -22,7 +22,7 @@ export const Navigation = ({ currentPage, handlePageChange }) => {
                     Portfolio
                 </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item nav-item-custom">
                 <a
                     href="#contact"
                     onClick={() => handlePageChange('Contact')}
@@ -31,7 +31,7 @@ export const Navigation = ({ currentPage, handlePageChange }) => {
                     Contact
                 </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item nav-item-custom">
                 <a
                     href="#resume"
                     onClick={() => handlePageChange('Resume')}

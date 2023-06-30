@@ -1,3 +1,18 @@
-.my-name {
-    margin: auto;
+header {
+    background-color: #072b11;
+    padding: 1rem;
+}
+
+.navbar-brand.my-name {
+    color: #bee8c9
+}
+
+.nav-item.nav-item-custom a {
+    color: #94a9ed;
+    margin: 0 1.2rem;
+    font-size: 1.2rem;
+}
+
+.navbar-nav .nav-item-custom .nav-link.active {
+    color: #ECD78D;
 }

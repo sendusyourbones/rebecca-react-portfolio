@@ -32,9 +32,11 @@ export const Header = () => {
   return (
     <div className="content-wrapper">
         <header>
-          <nav className="navbar navbar-expand-md bg-body-tertiary">
-            <p className="fs-1 navbar-brand my-name">Rebecca Roos</p>
-            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+          <nav className="navbar navbar-expand-md">
+            <div className="container-fluid">
+              <p className="fs-1 navbar-brand my-name">Rebecca Roos</p>
+              <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+            </div>
           </nav>
         </header>
         {renderPage()}
