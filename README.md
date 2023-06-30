@@ -6,7 +6,7 @@ I created this website to showcase the applications I have built to potential em
 
 ## Usage
 
-View the [deployed appliation]().
+View the [deployed appliation](https://sendusyourbones.github.io/rebecca-react-portfolio).
 
 - When you first visit the site, you are taken to the "About Me" page with a short description about myself.
 - To review my work, click the "Portfolio" link in the header. Click the "View Application" button to check out the deployed application, or click "View GitHub Repository" to see the code on GitHub.
@@ -14,7 +14,7 @@ View the [deployed appliation]().
 - To download my resume and view a list of my proficiences, click "Resume" in the header.
 - To visit my GitHub, LinkedIn, or Stack Overflow profile page, click the corresponding logos in the footer of any page.
 
-![Screenshot of my portfolio website showing a header and About Me section](./assets/images/portfolio_screenshot.png)
+![Screenshot of my portfolio website showing a header and About Me section](./src/assets/images/portfolio_screenshot.jpg)
 
 ## Credits
 
