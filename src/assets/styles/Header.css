@@ -13,6 +13,7 @@ header {
     font-size: 1.2rem;
 }
 
-.navbar-nav .nav-item-custom .nav-link.active {
+.navbar-nav .nav-item-custom .nav-link.active,
+.nav-item.nav-item-custom a:hover {
     color: #ECD78D;
 }
