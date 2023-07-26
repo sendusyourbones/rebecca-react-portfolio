@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/rebecca-react-portfolio/static/css/main.2eac08f6.css",
-    "main.js": "/rebecca-react-portfolio/static/js/main.4b6b04f6.js",
+    "main.js": "/rebecca-react-portfolio/static/js/main.2f1a8310.js",
     "static/media/sneeze-the-day-square.jpg": "/rebecca-react-portfolio/static/media/sneeze-the-day-square.b96a879ae89915817bc9.jpg",
     "static/media/Rebecca-Roos-resume.pdf": "/rebecca-react-portfolio/static/media/Rebecca-Roos-resume.fbb9884ccd6cde20ba46.pdf",
+    "static/media/learnify.jpg": "/rebecca-react-portfolio/static/media/learnify.d4eef0795462a64d9e0c.jpg",
     "static/media/weather-dashboard.jpg": "/rebecca-react-portfolio/static/media/weather-dashboard.9e90bce1f77dadcd083c.jpg",
     "static/media/coding-quiz.jpg": "/rebecca-react-portfolio/static/media/coding-quiz.49e4875e5d1478af65ca.jpg",
     "static/media/scheduler.jpg": "/rebecca-react-portfolio/static/media/scheduler.7454398930dfb77cb944.jpg",
     "static/media/avatar.png": "/rebecca-react-portfolio/static/media/avatar.c6b854a430877f10a553.png",
     "static/media/kitchen-alchemy.jpg": "/rebecca-react-portfolio/static/media/kitchen-alchemy.c8a10833c0f55fe643e8.jpg",
-    "static/media/text-editor.jpg": "/rebecca-react-portfolio/static/media/text-editor.ba88405de8c37cf9d4ae.jpg",
     "index.html": "/rebecca-react-portfolio/index.html",
     "main.2eac08f6.css.map": "/rebecca-react-portfolio/static/css/main.2eac08f6.css.map",
-    "main.4b6b04f6.js.map": "/rebecca-react-portfolio/static/js/main.4b6b04f6.js.map"
+    "main.2f1a8310.js.map": "/rebecca-react-portfolio/static/js/main.2f1a8310.js.map"
   },
   "entrypoints": [
     "static/css/main.2eac08f6.css",
-    "static/js/main.4b6b04f6.js"
+    "static/js/main.2f1a8310.js"
   ]
 }
