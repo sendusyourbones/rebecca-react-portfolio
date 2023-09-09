@@ -1,19 +1,10 @@
 .btn.btn-resume {
-    background-color: #D7FAB4;
-    border: 2px solid black;
-    margin-bottom: 2rem;
+  background-color: #d7fab4;
+  border: 2px solid black;
+  margin-bottom: 2rem;
 }
 
 .btn.btn-resume:hover {
-    background-color: #8cad6c;
-    border: 2px solid black;
-}
-
-#resume ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#resume li {
-    border: 1px solid #4c3ea3;
+  background-color: #8cad6c;
+  border: 2px solid black;
 }
