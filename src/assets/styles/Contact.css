@@ -8,13 +8,3 @@
     font-size: 1.5rem;
     margin-top: 1rem;
 }
-
-.btn.btn-contact {
-    background-color: #B4B4FA;
-    border: 2px solid black;
-}
-
-.btn.btn-contact:hover {
-    background-color: #7a7acc;
-    border: 2px solid black;
-}
